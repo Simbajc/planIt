@@ -1,18 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <div>
-          <h1>
-            TEST
-          </h1>
-        </div>
-      </header>
-    </div>
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
   );
 }
 
